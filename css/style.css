@@ -1,0 +1,41 @@
+
+#navBar{
+    border: 2px solid red;
+}
+#primary-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    max-width: 90%;
+    
+}
+.mealDiv{
+    border-radius: 5px;
+    object-position: inherit;
+    width: 300px;
+     
+}
+.mealDiv img{
+    width: 280px;
+    padding: 5px 5px;
+}
+.mealDiv h5{
+    text-align: center;
+    
+}
+.detail-div{
+    border: 1px solid lightsalmon;
+    border-radius: 5px;
+    background-color: rgb(240, 203, 188);
+    object-position: inherit;
+    width: 400px;
+    margin-left: 400px;
+    margin-bottom: 40px;
+
+}
+
+.info-image{
+    width: 300px;
+    
+}
+
