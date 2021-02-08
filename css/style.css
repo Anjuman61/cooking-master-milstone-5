@@ -1,28 +1,38 @@
 
-#navBar{
-    border: 2px solid red;
+#main{
+    background-color: darksalmon;
+    margin: 10px 10px;
 }
+
 #primary-div{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 40px;
-    max-width: 90%;
-    
+    grid-template-columns: repeat(4, 280px);
+    grid-gap: 20px;
+    align-items: center;  
 }
+#secondary-div ul li{
+    list-style-type: none;
+}
+
 .mealDiv{
     border-radius: 5px;
     object-position: inherit;
-    width: 300px;
-     
+    width: 300px;   
+}
+.meal-container{
+    width: 205px;
+    margin: 5px 5px;
 }
 .mealDiv img{
-    width: 280px;
+    width: 200px;
+    height: 200px;
     padding: 5px 5px;
 }
 .mealDiv h5{
     text-align: center;
-    
+    font-size:initial
 }
+
 .detail-div{
     border: 1px solid lightsalmon;
     border-radius: 5px;
@@ -31,11 +41,18 @@
     width: 400px;
     margin-left: 400px;
     margin-bottom: 40px;
-
+    padding: 10PX;
 }
 
 .info-image{
     width: 300px;
     
+}
+#error-message{
+    text-align: center;
+    font-size: 20px;
+    color: darkblue;
+    padding: 5px 5px;
+    margin: 10px 330px;
 }
 
